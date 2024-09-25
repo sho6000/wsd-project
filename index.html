@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartans - Home</title>
+    <link rel="shortcut icon" href="./gamevault.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3386fd30d1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./gamevault.png" alt="Gaming Vault Logo" width="60" height="60">
+            </a>
+    
+            <a class="navbar-brand" href="index.html">Spartan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./browse.html" >Browse Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./community.html">Explore Community</a>
+                    </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" href="./login.html">Login | Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script>
+        const navEL = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                navEL.classList.add('navbar-scrolled');
+                navEL.classList.remove('bg-transparent');
+            } else if (window.scrollY < 56) {
+                navEL.classList.remove('navbar-scrolled');
+                navEL.classList.add('bg-transparent');
+            }
+        });
+
+        window.onscroll = function() {
+        const navbar = document.getElementById("navbar");
+        if (window.pageYOffset > 50) {
+            navbar.classList.add("navbar-scrolled");
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+        }
+        };
+    </script>  
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <video class="d-block w-100" autoplay muted loop>
+                <source src="./Videos/finals.mp4" type="video/mp4" class="d-block w-100" alt="Slide 1">
+                Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Welcome to Gaming Vault</h5>
+                <p>Your gateway to the world of gaming.</p>
+              </div>
+            </div>
+          
+            <div class="carousel-item">
+              <video class="d-block w-100" autoplay muted loop>
+                <source src="./Videos/Valorent.mp4" type="video/mp4" class="d-block w-100" alt="Slide 2">
+                Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Game Development</h5>
+                <p>Unlock your creativity and develop cutting-edge games.</p>
+              </div>
+            </div>
+          
+            <div class="carousel-item">
+              <video class="d-block w-100" autoplay muted loop>
+                <source src="./Videos/Wukong.mp4" type="video/mp4" class="d-block w-100" alt="Slide 3">
+                Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Competitive Gaming</h5>
+                <p>Join thrilling eSports tournaments and events.</p>
+              </div>
+            </div>
+          
+            <div class="carousel-item">
+              <video class="d-block w-100" autoplay muted loop>
+                <source src="./Videos/elden.mp4" type="video/mp4" class="d-block w-100" alt="Slide 4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Community & Collaboration</h5>
+                <p>Connect with fellow gamers and collaborate in amazing ways.</p>
+              </div>
+            </div>
+          
+            <!-- <div class="carousel-item">
+              <video class="d-block w-100" autoplay muted loop>
+                <source src="./Videos/Valorent.mp4" type="video/mp4" class="d-block w-100" alt="Slide 5">
+                Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>VR Experiences</h5>
+                <p>Experience the future of gaming with VR.</p>
+              </div>
+            </div> -->
+          </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <script>
+        const carouselElement = document.getElementById('carouselExampleCaptions');
+        const carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 10000,
+            ride: 'carousel',
+            pause: false
+        });
+    </script>
+
+    <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb lg-0 mb-md-0 mb-5 text-center">
+                        <span id="count1"></span>
+                        <h2>
+                            <p>
+                                <i class="fa-solid fa-gamepad"></i><br>
+                                Hub Where All Gamers Meet!
+                             </p>
+                        </h2>
+                    </div>
+                    <div class="col-md-3 mb lg-0 mb-md-0 mb-5 text-center">
+                        <span id="count2"></span>
+                        <h2>
+                            <p>
+                                <i class="fa-solid fa-puzzle-piece"></i><br>
+                                Brainstorming Activities Takes Place.
+                            </p>
+                        </h2>
+                    </div>
+                    <div class="col-md-3 mb lg-0 mb-md-0 mb-5 text-center">
+                        <span id="count3"></span>
+                        <h2>
+                            <p>
+                                <i class="fa-solid fa-rocket"></i><br>
+                                Grow your Career as an E-Sports Player.
+                            </p>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <br>
+
+    <!-- Section: Features -->
+    <section class="features mt-5">
+        <div class="container">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-12">
+                    <div class="feature-box p-4 rounded shadow">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h3><i class="fas fa-gamepad me-3"></i> Immersive Gameplay</h3>
+                                <p>Explore a wide range of immersive and engaging games across various genres. Whether you're into action, strategy, or role-playing games, Gaming Vault has something for everyone.</p>
+                                <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#immersiveModal">Learn More</button>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img src="https://img.freepik.com/premium-photo/future-digital-gaming-entertainment-teenager-enjoys-immersive-gameplay-using-virtual-r_535844-1974.jpg" alt="Immersive Gameplay" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row align-items-center mb-4">
+                <div class="col-md-12">
+                    <div class="feature-box p-4 rounded shadow">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="https://miro.medium.com/v2/resize:fit:1400/1*jWzEsLmEbkzp87M021q9NA.png" alt="Competitive Gaming" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-6">
+                                <h3><i class="fas fa-trophy me-3"></i> Competitive Gaming</h3>
+                                <p>Join the most thrilling eSports tournaments and rise to the top of the leaderboards. Compete with players from around the world and showcase your skills.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#competitiveModal">Join Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row align-items-center mb-4">
+                <div class="col-md-12">
+                    <div class="feature-box p-4 rounded shadow">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h3><i class="fas fa-vr-cardboard me-3"></i> Virtual Reality Experiences</h3>
+                                <p>Step into the future of gaming with our cutting-edge VR experiences. Feel the game come to life as you explore virtual worlds in ways you never imagined.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vrModal">Discover More</button>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img src="https://cdn.prod.website-files.com/62826010140593390f881c8b/659ecf9a8cc3a853dcebabfb_5%20Best%20Virtual%20Reality%20Experiences%20of%202023.jpg" alt="VR Experiences" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row align-items-center mb-5">
+                <div class="col-md-12">
+                    <div class="feature-box p-4 rounded shadow">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="https://assets-global.website-files.com/636ff594b73c8dfbd3673fe8/63c5861dab4a884df2a8f99d_ActiveandLoyalGamingCommunity_0cde98ed7222b12b0dfbec711f27569c_2000.jpeg" alt="Gaming Community" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-6">
+                                <h3><i class="fas fa-users me-3"></i> Active Gaming Community</h3>
+                                <p>Become a part of our vibrant community where gamers from all over the world connect, share tips, and enjoy the latest in gaming together.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#communityModal">Join the Community</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Modals -->
+<!-- Immersive Gameplay Modal -->
+<div class="modal fade" id="immersiveModal" tabindex="-1" aria-labelledby="immersiveModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="immersiveModalLabel">Immersive Gameplay</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>At Gaming Vault, we pride ourselves on offering the most immersive and engaging games. Dive into worlds filled with adventure, challenges, and endless possibilities.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary custom-btn">
+                    <a href="https://www.arm.com/glossary/immersive-gaming" class="custom-link">Know more about Immersive Gaming</a>
+                </button>                
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Competitive Gaming Modal -->
+<div class="modal fade" id="competitiveModal" tabindex="-1" aria-labelledby="competitiveModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="competitiveModalLabel">Competitive Gaming</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Join our eSports tournaments and prove your mettle. Compete in a variety of games and stand a chance to win exciting prizes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary custom-btn">
+                    <a href="https://medium.com/@yash_gupta/exploring-the-rise-of-esports-the-competitive-gaming-phenomenon-e1a743e2dc1a" class="custom-link">Know more about Competitive Esports</a>
+                </button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VR Experiences Modal -->
+<div class="modal fade" id="vrModal" tabindex="-1" aria-labelledby="vrModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="vrModalLabel">Virtual Reality Experiences</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Our VR games take immersion to the next level. Experience gaming like never before as you step into fantastical worlds with stunning visuals and interactive gameplay.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary custom-btn">
+                    <a href="https://www.forbes.com/councils/forbestechcouncil/2024/03/11/digital-renaissance-ai-and-vr-in-the-gaming-and-tech-industry/#:~:text=One%20of%20the%20most%20promising,the%20experience%20more%20immersive%20and" class="custom-link">Know more about AI and VR</a>
+                </button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gaming Community Modal -->
+<div class="modal fade" id="communityModal" tabindex="-1" aria-labelledby="communityModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="communityModalLabel">Active Gaming Community</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Our community is the heart of Gaming Vault. Connect with fellow gamers, share your experiences, and discover the latest in gaming culture.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary custom-btn">
+                    <a href="https://bggames.medium.com/gaming-communities-the-rise-and-impact-of-gaming-communities-on-the-world-of-video-games-1fec152f649f" class="custom-link">Know more about Gaming Community</a>
+                </button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center mt-4 mb-3">
+    <p>Follow us on:</p>
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://discord.gg/WcjEWnBb" target="_blank"><i class="fab fa-discord"></i></a>
+</footer>
+
+</body>
+</html>

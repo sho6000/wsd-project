@@ -1,0 +1,528 @@
+{
+    "games": [
+        {
+            "name": "Pacman",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2508817081/display_1500/stock-photo-sports-logo-vector-style-image-of-pacman-s-ghosts-2508817081.jpg",
+            "description": "A classic arcade game where the player navigates Pac-Man through a maze, eating dots while avoiding ghosts.",
+            "category": "Arcade"
+          },
+          {
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2330739355/display_1500/stock-photo-link-from-the-legend-of-zelda-breath-of-the-wild-standing-on-top-of-a-mountain-at-sunrise-concept-2330739355.jpg",
+            "description": "An open-world adventure game set in the vast kingdom of Hyrule, where players guide Link on a quest to defeat Calamity Ganon.",
+            "category": "Adventure"
+          },
+          {
+            "name": "Fortnite",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2074290169/display_1500/stock-photo-kostanay-kazakhstan-november-man-holding-mobile-phone-with-screensaver-of-popular-game-2074290169.jpg",
+            "description": "A battle royale game where players fight to be the last one standing on a shrinking map, featuring construction mechanics.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Minecraft",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2474358453/display_1500/stock-photo-minecraft-mobile-ios-game-on-iphone-smartphone-screen-on-wooden-table-during-mobile-gameplay-2474358453.jpg",
+            "description": "A sandbox game where players can build and explore their own worlds, gathering resources and crafting items.",
+            "category": "Sandbox"
+          },
+          {
+            "name": "FIFA 24",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2330823437/display_1500/stock-photo-playstation-dual-sense-controller-with-ea-fc-electronic-arts-fc-ea-fc-old-fifa-game-2330823437.jpg",
+            "description": "A football simulation game that allows players to experience realistic matches with teams from around the world.",
+            "category": "Sports"
+          },
+          {
+            "name": "Call of Duty: Modern Warfare II",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2205498559/display_1500/stock-photo-man-playing-call-of-duty-modern-warfare-ii-on-tv-screen-sep-sao-paulo-brazil-2205498559.jpg",
+            "description": "A first-person shooter game that immerses players in military combat with a cinematic story and competitive multiplayer.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Assassin's Creed Valhalla",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2111893322/display_1500/stock-photo-playstation-dual-sense-controller-with-assassin-s-creed-valhalla-game-blurred-in-the-background-2111893322.jpg",
+            "description": "An open-world action-adventure game where players control a Viking raider as they build a settlement and wage battles.",
+            "category": "Action"
+          },
+          {
+            "name": "Super Mario Odyssey",
+            "image": "https://www.shutterstock.com/shutterstock/photos/768447571/display_1500/stock-photo-bratislava-slovakia-december-man-holding-super-mario-odyssey-videogame-on-nintendo-768447571.jpg",
+            "description": "A 3D platformer where Mario travels across different kingdoms to rescue Princess Peach from Bowser.",
+            "category": "Platformer"
+          },
+          {
+            "name": "Overwatch 2",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2209826243/display_1500/stock-photo-kaunas-lithuania-october-popular-shooting-game-on-playstation-overwatch-2209826243.jpg",
+            "description": "A team-based multiplayer first-person shooter with unique heroes, each with their own abilities and roles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Animal Crossing: New Horizons",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1689791188/display_1500/stock-photo-uk-march-nintendo-switch-games-console-hand-held-playing-animal-crossing-new-horizons-1689791188.jpg",
+            "description": "A life-simulation game where players build a community on a deserted island and interact with animal villagers.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Cyberpunk 2077",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1882902622/display_1500/stock-photo-bielsko-bia-a-poland-cyberpunk-game-for-pc-numerous-controversies-related-1882902622.jpg",
+            "description": "An open-world RPG set in a dystopian future where players assume the role of V, a mercenary outlaw navigating a high-tech world.",
+            "category": "RPG"
+          },
+          {
+            "name": "God of War: Ragnarök",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1894604365/display_1500/stock-photo-god-of-war-ragnarok-the-new-exclusive-playstation-game-with-dual-sense-controller-selective-focus-1894604365.jpg",
+            "description": "An action-adventure game where Kratos and his son, Atreus, face off against gods and monsters of Norse mythology.",
+            "category": "Action"
+          },
+          {
+            "name": "Elden Ring",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2115313067/display_1500/stock-photo-man-with-headphones-playing-elden-ring-at-tv-screen-selective-focus-jan-sao-paulo-2115313067.jpg",
+            "description": "An open-world action RPG set in a dark fantasy world, featuring exploration, combat, and lore from George R.R. Martin.",
+            "category": "RPG"
+          },
+          {
+            "name": "League of Legends",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2383520191/display_1500/stock-photo-bandung-indonesia-october-group-of-people-using-smartphone-and-playing-mobile-legends-2383520191.jpg",
+            "description": "A multiplayer online battle arena (MOBA) game where teams of champions compete to destroy the opposing team’s base.",
+            "category": "MOBA"
+          },
+          {
+            "name": "Apex Legends",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2151770919/display_1500/stock-photo-may-odessa-ukraine-white-new-playstation-gamepad-on-the-background-of-the-game-apex-2151770919.jpg",
+            "description": "A free-to-play battle royale shooter where players choose from different legends, each with unique abilities.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Hades",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2002640240/display_1500/stock-photo-man-playing-hades-on-xbox-game-pass-th-jul-sao-paulo-brazil-2002640240.jpg",
+            "description": "A rogue-like dungeon crawler where players fight their way out of the Underworld as the immortal prince Zagreus.",
+            "category": "Rogue-like"
+          },
+          {
+            "name": "Resident Evil Village",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1974948428/display_1500/stock-photo-man-play-resident-evil-village-on-tv-may-sao-paulo-brazil-1974948428.jpg",
+            "description": "A survival horror game where players must escape a terrifying village filled with monsters and mysteries.",
+            "category": "Horror"
+          },
+          {
+            "name": "The Sims 4",
+            "image": "https://www.shutterstock.com/shutterstock/photos/768454672/display_1500/stock-photo-bratislava-slovakia-december-man-holding-the-sims-videogame-on-sony-playstation-768454672.jpg",
+            "description": "A life simulation game where players create and control characters, build homes, and shape their virtual lives.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Grand Theft Auto V",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1169237881/display_1500/stock-photo-milan-italy-august-grand-theft-auto-v-website-homepage-grand-theft-auto-v-logo-1169237881.jpg",
+            "description": "An open-world action-adventure game where players complete missions and explore the fictional city of Los Santos.",
+            "category": "Action"
+          },
+          {
+            "name": "Rocket League",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1884089047/display_1500/stock-photo-rocket-league-football-gaming-art-1884089047.jpg",
+            "description": "A unique sports game where players drive cars to hit a soccer ball into the opposing team’s goal.",
+            "category": "Sports"
+          },
+          {
+            "name": "Valorant",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2445782013/display_1500/stock-photo-viersen-germany-january-closeup-of-smartphone-on-pc-keyboard-with-logo-lettering-of-2445782013.jpg",
+            "description": "A tactical first-person shooter where teams of agents with unique abilities face off in fast-paced matches.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Hollow Knight",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2452245743/display_1500/stock-photo-a-d-printed-figurine-called-hornet-from-a-video-game-called-hollow-knight-the-photograph-is-taken-2452245743.jpg",
+            "description": "A 2D action-adventure game set in a hauntingly beautiful world filled with challenging combat and exploration.",
+            "category": "Metroidvania"
+          },
+          {
+            "name": "Red Dead Redemption 2",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1931867306/display_1500/stock-photo-man-playing-red-dead-redemption-th-mar-sao-paulo-brazil-1931867306.jpg",
+            "description": "A Western-themed action-adventure game where players take on the role of Arthur Morgan, an outlaw in a changing world.",
+            "category": "Action"
+          },
+          {
+            "name": "Among Us",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2134523549/display_1500/stock-photo-among-us-mobile-game-app-on-the-smartphone-screen-yellow-background-with-school-supplies-children-2134523549.jpg",
+            "description": "A multiplayer party game where players must work together to complete tasks on a spaceship while identifying impostors.",
+            "category": "Party"
+          },
+          {
+            "name": "Fall Guys",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2239177815/display_1500/stock-photo-a-man-with-glasses-sits-in-front-of-the-monitor-holds-a-game-controller-in-his-hands-and-plays-a-2239177815.jpg",
+            "description": "A multiplayer party game where players race through obstacle courses to be the last one standing.",
+            "category": "Party"
+          },
+          {
+            "name": "The Witcher 3: Wild Hunt",
+            "image": "https://www.shutterstock.com/shutterstock/photos/318483005/display_1500/stock-photo-bangkok-thailand-september-the-witcher-wild-hunt-game-on-ps-console-on-september-318483005.jpg",
+            "description": "An open-world RPG where players take on the role of Geralt of Rivia, a monster hunter in a richly detailed world.",
+            "category": "RPG"
+          },
+          {
+            "name": "Splatoon 3",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1441638266/display_1500/stock-photo-manila-ph-july-splatoon-shirt-tag-by-uniqlo-on-july-in-manila-philippines-1441638266.jpg",
+            "description": "A team-based shooter where players compete in colorful ink-based battles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Monster Hunter Rise",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0m4rFAqWGpILS2LrtFbADRSFqE0PO0pS_vUCCf-Ybc93OSTF9ZcxL1MkS_ceY18T-SpWi",
+            "description": "An action RPG where players hunt and battle massive creatures in various environments.",
+            "category": "Action"
+          },
+          {
+            "name": "Forza Horizon 5",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2074459045/display_1500/stock-photo-man-playing-forza-horizon-on-xbox-nov-sao-paulo-brazil-2074459045.jpg",
+            "description": "A racing game set in an open world based on Mexico, offering a variety of cars and events.",
+            "category": "Racing"
+          },
+          {
+            "name": "Pacman",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2508817081/display_1500/stock-photo-sports-logo-vector-style-image-of-pacman-s-ghosts-2508817081.jpg",
+            "description": "A classic arcade game where the player navigates Pac-Man through a maze, eating dots while avoiding ghosts.",
+            "category": "Arcade"
+          },
+          {
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2330739355/display_1500/stock-photo-link-from-the-legend-of-zelda-breath-of-the-wild-standing-on-top-of-a-mountain-at-sunrise-concept-2330739355.jpg",
+            "description": "An open-world adventure game set in the vast kingdom of Hyrule, where players guide Link on a quest to defeat Calamity Ganon.",
+            "category": "Adventure"
+          },
+          {
+            "name": "Fortnite",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2074290169/display_1500/stock-photo-kostanay-kazakhstan-november-man-holding-mobile-phone-with-screensaver-of-popular-game-2074290169.jpg",
+            "description": "A battle royale game where players fight to be the last one standing on a shrinking map, featuring construction mechanics.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Minecraft",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2474358453/display_1500/stock-photo-minecraft-mobile-ios-game-on-iphone-smartphone-screen-on-wooden-table-during-mobile-gameplay-2474358453.jpg",
+            "description": "A sandbox game where players can build and explore their own worlds, gathering resources and crafting items.",
+            "category": "Sandbox"
+          },
+          {
+            "name": "FIFA 24",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2330823437/display_1500/stock-photo-playstation-dual-sense-controller-with-ea-fc-electronic-arts-fc-ea-fc-old-fifa-game-2330823437.jpg",
+            "description": "A football simulation game that allows players to experience realistic matches with teams from around the world.",
+            "category": "Sports"
+          },
+          {
+            "name": "Call of Duty: Modern Warfare II",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2205498559/display_1500/stock-photo-man-playing-call-of-duty-modern-warfare-ii-on-tv-screen-sep-sao-paulo-brazil-2205498559.jpg",
+            "description": "A first-person shooter game that immerses players in military combat with a cinematic story and competitive multiplayer.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Assassin's Creed Valhalla",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2111893322/display_1500/stock-photo-playstation-dual-sense-controller-with-assassin-s-creed-valhalla-game-blurred-in-the-background-2111893322.jpg",
+            "description": "An open-world action-adventure game where players control a Viking raider as they build a settlement and wage battles.",
+            "category": "Action"
+          },
+          {
+            "name": "Super Mario Odyssey",
+            "image": "https://www.shutterstock.com/shutterstock/photos/768447571/display_1500/stock-photo-bratislava-slovakia-december-man-holding-super-mario-odyssey-videogame-on-nintendo-768447571.jpg",
+            "description": "A 3D platformer where Mario travels across different kingdoms to rescue Princess Peach from Bowser.",
+            "category": "Platformer"
+          },
+          {
+            "name": "Overwatch 2",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2209826243/display_1500/stock-photo-kaunas-lithuania-october-popular-shooting-game-on-playstation-overwatch-2209826243.jpg",
+            "description": "A team-based multiplayer first-person shooter with unique heroes, each with their own abilities and roles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Animal Crossing: New Horizons",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1689791188/display_1500/stock-photo-uk-march-nintendo-switch-games-console-hand-held-playing-animal-crossing-new-horizons-1689791188.jpg",
+            "description": "A life-simulation game where players build a community on a deserted island and interact with animal villagers.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Cyberpunk 2077",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1882902622/display_1500/stock-photo-bielsko-bia-a-poland-cyberpunk-game-for-pc-numerous-controversies-related-1882902622.jpg",
+            "description": "An open-world RPG set in a dystopian future where players assume the role of V, a mercenary outlaw navigating a high-tech world.",
+            "category": "RPG"
+          },
+          {
+            "name": "God of War: Ragnarök",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1894604365/display_1500/stock-photo-god-of-war-ragnarok-the-new-exclusive-playstation-game-with-dual-sense-controller-selective-focus-1894604365.jpg",
+            "description": "An action-adventure game where Kratos and his son, Atreus, face off against gods and monsters of Norse mythology.",
+            "category": "Action"
+          },
+          {
+            "name": "Elden Ring",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2115313067/display_1500/stock-photo-man-with-headphones-playing-elden-ring-at-tv-screen-selective-focus-jan-sao-paulo-2115313067.jpg",
+            "description": "An open-world action RPG set in a dark fantasy world, featuring exploration, combat, and lore from George R.R. Martin.",
+            "category": "RPG"
+          },
+          {
+            "name": "League of Legends",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2383520191/display_1500/stock-photo-bandung-indonesia-october-group-of-people-using-smartphone-and-playing-mobile-legends-2383520191.jpg",
+            "description": "A multiplayer online battle arena (MOBA) game where teams of champions compete to destroy the opposing team’s base.",
+            "category": "MOBA"
+          },
+          {
+            "name": "Apex Legends",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2151770919/display_1500/stock-photo-may-odessa-ukraine-white-new-playstation-gamepad-on-the-background-of-the-game-apex-2151770919.jpg",
+            "description": "A free-to-play battle royale shooter where players choose from different legends, each with unique abilities.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Hades",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2002640240/display_1500/stock-photo-man-playing-hades-on-xbox-game-pass-th-jul-sao-paulo-brazil-2002640240.jpg",
+            "description": "A rogue-like dungeon crawler where players fight their way out of the Underworld as the immortal prince Zagreus.",
+            "category": "Rogue-like"
+          },
+          {
+            "name": "Resident Evil Village",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1974948428/display_1500/stock-photo-man-play-resident-evil-village-on-tv-may-sao-paulo-brazil-1974948428.jpg",
+            "description": "A survival horror game where players must escape a terrifying village filled with monsters and mysteries.",
+            "category": "Horror"
+          },
+          {
+            "name": "The Sims 4",
+            "image": "https://www.shutterstock.com/shutterstock/photos/768454672/display_1500/stock-photo-bratislava-slovakia-december-man-holding-the-sims-videogame-on-sony-playstation-768454672.jpg",
+            "description": "A life simulation game where players create and control characters, build homes, and shape their virtual lives.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Grand Theft Auto V",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1169237881/display_1500/stock-photo-milan-italy-august-grand-theft-auto-v-website-homepage-grand-theft-auto-v-logo-1169237881.jpg",
+            "description": "An open-world action-adventure game where players complete missions and explore the fictional city of Los Santos.",
+            "category": "Action"
+          },
+          {
+            "name": "Rocket League",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1884089047/display_1500/stock-photo-rocket-league-football-gaming-art-1884089047.jpg",
+            "description": "A unique sports game where players drive cars to hit a soccer ball into the opposing team’s goal.",
+            "category": "Sports"
+          },
+          {
+            "name": "Valorant",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2445782013/display_1500/stock-photo-viersen-germany-january-closeup-of-smartphone-on-pc-keyboard-with-logo-lettering-of-2445782013.jpg",
+            "description": "A tactical first-person shooter where teams of agents with unique abilities face off in fast-paced matches.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Hollow Knight",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2452245743/display_1500/stock-photo-a-d-printed-figurine-called-hornet-from-a-video-game-called-hollow-knight-the-photograph-is-taken-2452245743.jpg",
+            "description": "A 2D action-adventure game set in a hauntingly beautiful world filled with challenging combat and exploration.",
+            "category": "Metroidvania"
+          },
+          {
+            "name": "Red Dead Redemption 2",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1931867306/display_1500/stock-photo-man-playing-red-dead-redemption-th-mar-sao-paulo-brazil-1931867306.jpg",
+            "description": "A Western-themed action-adventure game where players take on the role of Arthur Morgan, an outlaw in a changing world.",
+            "category": "Action"
+          },
+          {
+            "name": "Among Us",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2134523549/display_1500/stock-photo-among-us-mobile-game-app-on-the-smartphone-screen-yellow-background-with-school-supplies-children-2134523549.jpg",
+            "description": "A multiplayer party game where players must work together to complete tasks on a spaceship while identifying impostors.",
+            "category": "Party"
+          },
+          {
+            "name": "Fall Guys",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2239177815/display_1500/stock-photo-a-man-with-glasses-sits-in-front-of-the-monitor-holds-a-game-controller-in-his-hands-and-plays-a-2239177815.jpg",
+            "description": "A multiplayer party game where players race through obstacle courses to be the last one standing.",
+            "category": "Party"
+          },
+          {
+            "name": "The Witcher 3: Wild Hunt",
+            "image": "https://www.shutterstock.com/shutterstock/photos/318483005/display_1500/stock-photo-bangkok-thailand-september-the-witcher-wild-hunt-game-on-ps-console-on-september-318483005.jpg",
+            "description": "An open-world RPG where players take on the role of Geralt of Rivia, a monster hunter in a richly detailed world.",
+            "category": "RPG"
+          },
+          {
+            "name": "Splatoon 3",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1441638266/display_1500/stock-photo-manila-ph-july-splatoon-shirt-tag-by-uniqlo-on-july-in-manila-philippines-1441638266.jpg",
+            "description": "A team-based shooter where players compete in colorful ink-based battles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Monster Hunter Rise",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0m4rFAqWGpILS2LrtFbADRSFqE0PO0pS_vUCCf-Ybc93OSTF9ZcxL1MkS_ceY18T-SpWi",
+            "description": "An action RPG where players hunt and battle massive creatures in various environments.",
+            "category": "Action"
+          },
+          {
+            "name": "Forza Horizon 5",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2074459045/display_1500/stock-photo-man-playing-forza-horizon-on-xbox-nov-sao-paulo-brazil-2074459045.jpg",
+            "description": "A racing game set in an open world based on Mexico, offering a variety of cars and events.",
+            "category": "Racing"
+          },
+          {
+            "name": "Pacman",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2508817081/display_1500/stock-photo-sports-logo-vector-style-image-of-pacman-s-ghosts-2508817081.jpg",
+            "description": "A classic arcade game where the player navigates Pac-Man through a maze, eating dots while avoiding ghosts.",
+            "category": "Arcade"
+          },
+          {
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2330739355/display_1500/stock-photo-link-from-the-legend-of-zelda-breath-of-the-wild-standing-on-top-of-a-mountain-at-sunrise-concept-2330739355.jpg",
+            "description": "An open-world adventure game set in the vast kingdom of Hyrule, where players guide Link on a quest to defeat Calamity Ganon.",
+            "category": "Adventure"
+          },
+          {
+            "name": "Fortnite",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2074290169/display_1500/stock-photo-kostanay-kazakhstan-november-man-holding-mobile-phone-with-screensaver-of-popular-game-2074290169.jpg",
+            "description": "A battle royale game where players fight to be the last one standing on a shrinking map, featuring construction mechanics.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Minecraft",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2474358453/display_1500/stock-photo-minecraft-mobile-ios-game-on-iphone-smartphone-screen-on-wooden-table-during-mobile-gameplay-2474358453.jpg",
+            "description": "A sandbox game where players can build and explore their own worlds, gathering resources and crafting items.",
+            "category": "Sandbox"
+          },
+          {
+            "name": "FIFA 24",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2330823437/display_1500/stock-photo-playstation-dual-sense-controller-with-ea-fc-electronic-arts-fc-ea-fc-old-fifa-game-2330823437.jpg",
+            "description": "A football simulation game that allows players to experience realistic matches with teams from around the world.",
+            "category": "Sports"
+          },
+          {
+            "name": "Call of Duty: Modern Warfare II",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2205498559/display_1500/stock-photo-man-playing-call-of-duty-modern-warfare-ii-on-tv-screen-sep-sao-paulo-brazil-2205498559.jpg",
+            "description": "A first-person shooter game that immerses players in military combat with a cinematic story and competitive multiplayer.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Assassin's Creed Valhalla",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2111893322/display_1500/stock-photo-playstation-dual-sense-controller-with-assassin-s-creed-valhalla-game-blurred-in-the-background-2111893322.jpg",
+            "description": "An open-world action-adventure game where players control a Viking raider as they build a settlement and wage battles.",
+            "category": "Action"
+          },
+          {
+            "name": "Super Mario Odyssey",
+            "image": "https://www.shutterstock.com/shutterstock/photos/768447571/display_1500/stock-photo-bratislava-slovakia-december-man-holding-super-mario-odyssey-videogame-on-nintendo-768447571.jpg",
+            "description": "A 3D platformer where Mario travels across different kingdoms to rescue Princess Peach from Bowser.",
+            "category": "Platformer"
+          },
+          {
+            "name": "Overwatch 2",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2209826243/display_1500/stock-photo-kaunas-lithuania-october-popular-shooting-game-on-playstation-overwatch-2209826243.jpg",
+            "description": "A team-based multiplayer first-person shooter with unique heroes, each with their own abilities and roles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Animal Crossing: New Horizons",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1689791188/display_1500/stock-photo-uk-march-nintendo-switch-games-console-hand-held-playing-animal-crossing-new-horizons-1689791188.jpg",
+            "description": "A life-simulation game where players build a community on a deserted island and interact with animal villagers.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Cyberpunk 2077",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1882902622/display_1500/stock-photo-bielsko-bia-a-poland-cyberpunk-game-for-pc-numerous-controversies-related-1882902622.jpg",
+            "description": "An open-world RPG set in a dystopian future where players assume the role of V, a mercenary outlaw navigating a high-tech world.",
+            "category": "RPG"
+          },
+          {
+            "name": "God of War: Ragnarök",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1894604365/display_1500/stock-photo-god-of-war-ragnarok-the-new-exclusive-playstation-game-with-dual-sense-controller-selective-focus-1894604365.jpg",
+            "description": "An action-adventure game where Kratos and his son, Atreus, face off against gods and monsters of Norse mythology.",
+            "category": "Action"
+          },
+          {
+            "name": "Elden Ring",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2115313067/display_1500/stock-photo-man-with-headphones-playing-elden-ring-at-tv-screen-selective-focus-jan-sao-paulo-2115313067.jpg",
+            "description": "An open-world action RPG set in a dark fantasy world, featuring exploration, combat, and lore from George R.R. Martin.",
+            "category": "RPG"
+          },
+          {
+            "name": "League of Legends",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2383520191/display_1500/stock-photo-bandung-indonesia-october-group-of-people-using-smartphone-and-playing-mobile-legends-2383520191.jpg",
+            "description": "A multiplayer online battle arena (MOBA) game where teams of champions compete to destroy the opposing team’s base.",
+            "category": "MOBA"
+          },
+          {
+            "name": "Apex Legends",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2151770919/display_1500/stock-photo-may-odessa-ukraine-white-new-playstation-gamepad-on-the-background-of-the-game-apex-2151770919.jpg",
+            "description": "A free-to-play battle royale shooter where players choose from different legends, each with unique abilities.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Hades",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2002640240/display_1500/stock-photo-man-playing-hades-on-xbox-game-pass-th-jul-sao-paulo-brazil-2002640240.jpg",
+            "description": "A rogue-like dungeon crawler where players fight their way out of the Underworld as the immortal prince Zagreus.",
+            "category": "Rogue-like"
+          },
+          {
+            "name": "Resident Evil Village",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1974948428/display_1500/stock-photo-man-play-resident-evil-village-on-tv-may-sao-paulo-brazil-1974948428.jpg",
+            "description": "A survival horror game where players must escape a terrifying village filled with monsters and mysteries.",
+            "category": "Horror"
+          },
+          {
+            "name": "The Sims 4",
+            "image": "https://www.shutterstock.com/shutterstock/photos/768454672/display_1500/stock-photo-bratislava-slovakia-december-man-holding-the-sims-videogame-on-sony-playstation-768454672.jpg",
+            "description": "A life simulation game where players create and control characters, build homes, and shape their virtual lives.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Grand Theft Auto V",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1169237881/display_1500/stock-photo-milan-italy-august-grand-theft-auto-v-website-homepage-grand-theft-auto-v-logo-1169237881.jpg",
+            "description": "An open-world action-adventure game where players complete missions and explore the fictional city of Los Santos.",
+            "category": "Action"
+          },
+          {
+            "name": "Rocket League",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1884089047/display_1500/stock-photo-rocket-league-football-gaming-art-1884089047.jpg",
+            "description": "A unique sports game where players drive cars to hit a soccer ball into the opposing team’s goal.",
+            "category": "Sports"
+          },
+          {
+            "name": "Valorant",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2445782013/display_1500/stock-photo-viersen-germany-january-closeup-of-smartphone-on-pc-keyboard-with-logo-lettering-of-2445782013.jpg",
+            "description": "A tactical first-person shooter where teams of agents with unique abilities face off in fast-paced matches.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Hollow Knight",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2452245743/display_1500/stock-photo-a-d-printed-figurine-called-hornet-from-a-video-game-called-hollow-knight-the-photograph-is-taken-2452245743.jpg",
+            "description": "A 2D action-adventure game set in a hauntingly beautiful world filled with challenging combat and exploration.",
+            "category": "Metroidvania"
+          },
+          {
+            "name": "Red Dead Redemption 2",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1931867306/display_1500/stock-photo-man-playing-red-dead-redemption-th-mar-sao-paulo-brazil-1931867306.jpg",
+            "description": "A Western-themed action-adventure game where players take on the role of Arthur Morgan, an outlaw in a changing world.",
+            "category": "Action"
+          },
+          {
+            "name": "Among Us",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2134523549/display_1500/stock-photo-among-us-mobile-game-app-on-the-smartphone-screen-yellow-background-with-school-supplies-children-2134523549.jpg",
+            "description": "A multiplayer party game where players must work together to complete tasks on a spaceship while identifying impostors.",
+            "category": "Party"
+          },
+          {
+            "name": "Fall Guys",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2239177815/display_1500/stock-photo-a-man-with-glasses-sits-in-front-of-the-monitor-holds-a-game-controller-in-his-hands-and-plays-a-2239177815.jpg",
+            "description": "A multiplayer party game where players race through obstacle courses to be the last one standing.",
+            "category": "Party"
+          },
+          {
+            "name": "The Witcher 3: Wild Hunt",
+            "image": "https://www.shutterstock.com/shutterstock/photos/318483005/display_1500/stock-photo-bangkok-thailand-september-the-witcher-wild-hunt-game-on-ps-console-on-september-318483005.jpg",
+            "description": "An open-world RPG where players take on the role of Geralt of Rivia, a monster hunter in a richly detailed world.",
+            "category": "RPG"
+          },
+          {
+            "name": "Splatoon 3",
+            "image": "https://www.shutterstock.com/shutterstock/photos/1441638266/display_1500/stock-photo-manila-ph-july-splatoon-shirt-tag-by-uniqlo-on-july-in-manila-philippines-1441638266.jpg",
+            "description": "A team-based shooter where players compete in colorful ink-based battles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Monster Hunter Rise",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0m4rFAqWGpILS2LrtFbADRSFqE0PO0pS_vUCCf-Ybc93OSTF9ZcxL1MkS_ceY18T-SpWi",
+            "description": "An action RPG where players hunt and battle massive creatures in various environments.",
+            "category": "Action"
+          },
+          {
+            "name": "Forza Horizon 5",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2074459045/display_1500/stock-photo-man-playing-forza-horizon-on-xbox-nov-sao-paulo-brazil-2074459045.jpg",
+            "description": "A racing game set in an open world based on Mexico, offering a variety of cars and events.",
+            "category": "Racing"
+          }
+          
+    ]
+  }
+  
